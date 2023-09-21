@@ -1,10 +1,10 @@
 // Comentário de 1 linha
 /*Bloco de comentário (Shift + ALT + a) */
 
-// alert("Olá, mundo!");
+alert("Bom dia!");
 
 console.log("Olá, mundo!"); // Exibido no: Inspecionar -> Console
-// document.write("Olá, mundo!");
+document.write("Olá, mundo!");
 
 /* Variáveis
 Palavras-chave: var, let e const
@@ -24,6 +24,13 @@ document.write('<h2 style="color: blue;">Recuperando valores e concatenação</h
 
 
 // 1ª Digitação (Aqui)
+
+document.write("<strong>Meu nome é:</strong> " +nome+"<br>");
+document.write("<strong>Estamos no ano de:</strong> " +ano+"<br>");
+document.write("<strong>O meu curso preferido é:</strong> " +curso+"<br>");
+
+// Concatenação template literal (Crase)
+document.write(`Eu sou o: <strong>${nome}</strong> e em: <strong>${ano}</strong> estou estudando <strong>${curso}</strong>.<br>`)
 
 
 
@@ -64,3 +71,5 @@ let total = preco * quantidade;
 
 
 // 3ª Digitação (Aqui)
+
+document.write(`Temos atualmente no estoque o produto: <strong>${produto}</strong> que está saindo por: R$<strong>${preco}</strong> com ainda <strong>${quantidade}</strong> no estoque, e se na compra de ${quantidade} produtos o preço será de R$<strong>${total}</strong>.`);t

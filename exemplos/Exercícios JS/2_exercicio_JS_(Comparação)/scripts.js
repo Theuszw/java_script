@@ -11,3 +11,4 @@ document.write('__________________________________________________________<br><b
 document.write('2º Exemplo: <br><br>');
 
 // Digite a resolução do 2º exemplo aqui e visualize o resultado no navegador
+
